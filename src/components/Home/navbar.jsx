@@ -1,46 +1,45 @@
 import React from "react";
 import "./navbar.css";
-
 function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand">
-            <img src="/images/Gal-Palas-Logo.svg" alt="Gal Palas Logo" />
+          <a className="navbar-brand" href="/#">
+            <img src="/images/Gal-Palas-Logo.svg" alt="Gal Palas Logo"></img>
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarResponsive"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item active">
+                <a className="nav-link" href="/#">
                   Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="/#">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="/#">
                   Skills
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="/#">
                   Work
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link" href="/#">
                   Connect
                 </a>
               </li>
