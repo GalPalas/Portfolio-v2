@@ -17,11 +17,11 @@ function Carousel() {
               <h1 className="display-2">Gal Palas</h1>
               <h3>Full-Stack Developer</h3>
               <button type="button" className="btn btn-outline-light btn-lg">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
                 GitHub
               </button>
               <button type="button" className="btn btn-outline-light btn-lg">
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
                 LinkedIn
               </button>
             </div>
