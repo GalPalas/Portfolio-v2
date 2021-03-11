@@ -1,0 +1,35 @@
+footer {
+  /* background-color: #3f3f3f; */
+  background-image: url("/src/images/black-felt.png");
+  background-color: #0d0d0d;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+.contact-details {
+  list-style-type: none;
+  text-align: center;
+  line-height: 2rem;
+}
+
+.display-2 {
+  font-size: 4.145rem;
+  color: hsla(0, 0%, 100%, 0.07);
+}
+
+.email-header {
+  text-align: left;
+}
+
+.name,
+.company,
+.email,
+.phone,
+.message {
+  display: block;
+  text-align: left;
+}
+
+#floatingTextarea {
+  height: 150px;
+}
