@@ -1,0 +1,18 @@
+.fa-html5 {
+  color: #e54d26;
+}
+
+.fa-css3-alt {
+  color: #2163af;
+}
+
+.fa-js {
+  color: #f0db4f;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-js {
+  font-size: 4rem;
+  margin: 1rem;
+}
