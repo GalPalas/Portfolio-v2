@@ -19,9 +19,6 @@ function About() {
               Photoshop.
             </p>
             <br></br>
-            <a href="/#" className="btn btn-primary btn-lg">
-              Lern More
-            </a>
           </div>
           <div className="col-lg-6">
             <img src="/images/GP.png" className="img-fluid" alt=""></img>
