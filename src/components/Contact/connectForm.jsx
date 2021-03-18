@@ -1,4 +1,5 @@
 import React from "react";
+import sendEmail from "./sendEmail";
 import "./connectForm.css";
 
 function ConnectForm() {
@@ -38,67 +39,74 @@ function ConnectForm() {
               <div className="col-lg-8">
                 <p className="email-header">Email Me</p>
 
-                <div className="row">
-                  <div className="col">
-                    <p className="name">
-                      <label className="title">Name</label>
-                      <input
-                        type="text"
-                        className="form-control form-control-lg"
-                      ></input>
-                    </p>
+                <form onSubmit={sendEmail}>
+                  <div className="row">
+                    <div className="col">
+                      <p className="name">
+                        <label className="title">Name</label>
+                        <input
+                          type="text"
+                          name="name"
+                          className="form-control form-control-lg"
+                        ></input>
+                      </p>
+                    </div>
+
+                    <div className="col">
+                      <p className="company">
+                        <label className="title">Company</label>
+                        <input
+                          type="text"
+                          name="company"
+                          className="form-control form-control-lg"
+                        ></input>
+                      </p>
+                    </div>
                   </div>
 
-                  <div className="col">
-                    <p className="company">
-                      <label className="title">Company</label>
-                      <input
-                        type="text"
-                        className="form-control form-control-lg"
-                      ></input>
-                    </p>
-                  </div>
-                </div>
+                  <div className="row">
+                    <div className="col">
+                      <p className="name">
+                        <label className="title">Email Address</label>
+                        <input
+                          type="text"
+                          name="email"
+                          className="form-control form-control-lg"
+                        ></input>
+                      </p>
+                    </div>
 
-                <div className="row">
-                  <div className="col">
-                    <p className="name">
-                      <label className="title">Email Address</label>
-                      <input
-                        type="text"
-                        className="form-control form-control-lg"
-                      ></input>
-                    </p>
+                    <div className="col">
+                      <p className="company">
+                        <label className="title">Phone Number</label>
+                        <input
+                          type="text"
+                          name="phone"
+                          className="form-control form-control-lg"
+                        ></input>
+                      </p>
+                    </div>
                   </div>
 
-                  <div className="col">
-                    <p className="company">
-                      <label className="title">Phone Number</label>
-                      <input
-                        type="text"
-                        className="form-control form-control-lg"
-                      ></input>
-                    </p>
+                  <div className="row">
+                    <div className="col-12">
+                      <p className="message">
+                        <label className="title">Message</label>
+                        <div class="form-floating">
+                          <textarea
+                            className="form-control"
+                            name="message"
+                            placeholder="Leave a comment here"
+                            id="floatingTextarea"
+                          ></textarea>
+                        </div>
+                      </p>
+                    </div>
                   </div>
-                </div>
-
-                <div className="row">
-                  <div className="col-12">
-                    <p className="message">
-                      <label className="title">Message</label>
-                      <div class="form-floating">
-                        <textarea
-                          className="form-control"
-                          placeholder="Leave a comment here"
-                          id="floatingTextarea"
-                        ></textarea>
-                      </div>
-                    </p>
-                  </div>
-                </div>
-                <button className="btn btn-secondary btn-lg">
-                  Send me something interesting!
-                </button>
+                  <button type="submit" className="btn btn-secondary btn-lg">
+                    Send me something interesting!
+                  </button>
+                </form>
               </div>
             </div>
           </div>
