@@ -26,11 +26,21 @@ function Carousel() {
               </button>
             </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item ">
             <img src="/images/aaa.jpg" alt=""></img>
+            <div className="carousel-caption quotes1">
+              <h1>
+                “Experience is the name everyone gives to their mistakes.”
+              </h1>
+              <h3>Oscar Wilde</h3>
+            </div>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item ">
             <img src="/images/ccc.jpg" alt=""></img>
+            <div className="carousel-caption quotes2">
+              <h1>“First, solve the problem. Then, write the code.”</h1>
+              <h3>John Johnson</h3>
+            </div>
           </div>
         </div>
       </div>

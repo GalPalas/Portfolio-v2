@@ -6,7 +6,11 @@ function Work() {
     <div className="container-fluid padding">
       <div className="row welcome text-center">
         <div className="col-12">
-          <h1 className="display-4">My Projects</h1>
+          <h1 className="display-4">Projects</h1>
+          <p className="lead">
+            Here is a selected pick of some of my work. Take a look if you got a
+            spare time!
+          </p>
         </div>
         <hr></hr>
       </div>

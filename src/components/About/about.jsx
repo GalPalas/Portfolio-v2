@@ -5,6 +5,12 @@ function About() {
   return (
     <div>
       <div className="container-fluid padding">
+        <div className="row welcome text-center">
+          <div className="col-12">
+            <h1 className="display-4">About</h1>
+          </div>
+          <hr></hr>
+        </div>
         <div className="row padding">
           <div className="col-lg-6 pt-4">
             <h2>I'am Gal</h2>
@@ -19,6 +25,9 @@ function About() {
               Photoshop.
             </p>
             <br></br>
+            <a href="/#" class="btn btn-primary btn-lg">
+              Cover Letter <i class="fas fa-arrow-circle-down"></i>
+            </a>
           </div>
           <div className="col-lg-6">
             <img src="/images/GP.png" className="img-fluid" alt=""></img>
