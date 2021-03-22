@@ -12,22 +12,34 @@ function Carousel() {
         </ul>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="/images/bbb.jpg" alt=""></img>
+            <img src="/images/carousel_image_zero.jpg" alt=""></img>
             <div className="carousel-caption">
               <h1 className="display-2">Gal Palas</h1>
               <h3>Full-Stack Developer</h3>
-              <button type="button" className="btn btn-outline-light btn-lg">
+              <a
+                type="button"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-outline-light btn-lg"
+                href="https://github.com/GalPalas"
+              >
                 <i className="fab fa-github"></i>
                 GitHub
-              </button>
-              <button type="button" className="btn btn-outline-light btn-lg">
+              </a>
+              <a
+                type="button"
+                className="btn btn-outline-light btn-lg"
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/gal-palas-84259419a/"
+              >
                 <i className="fab fa-linkedin"></i>
                 LinkedIn
-              </button>
+              </a>
             </div>
           </div>
           <div className="carousel-item ">
-            <img src="/images/aaa.jpg" alt=""></img>
+            <img src="/images/carousel_image_one.jpg" alt=""></img>
             <div className="carousel-caption quotes1">
               <h1>
                 “Experience is the name everyone gives to their mistakes.”
@@ -36,7 +48,7 @@ function Carousel() {
             </div>
           </div>
           <div className="carousel-item ">
-            <img src="/images/ccc.jpg" alt=""></img>
+            <img src="/images/carousel_image_two.jpg" alt=""></img>
             <div className="carousel-caption quotes2">
               <h1>“First, solve the problem. Then, write the code.”</h1>
               <h3>John Johnson</h3>

@@ -1,13 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
+
 function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/#">
+          <Link className="navbar-brand" to="/">
             <img src="/images/Gal-Palas-Logo.svg" alt="Gal Palas Logo"></img>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -19,29 +21,29 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="/#">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link className="nav-link" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link className="nav-link" to="/skills">
                   Skills
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link className="nav-link" to="/work">
                   Work
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <Link className="nav-link" to="/connect">
                   Connect
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

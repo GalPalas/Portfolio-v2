@@ -25,7 +25,10 @@ function About() {
               Photoshop.
             </p>
             <br></br>
-            <a href="/#" class="btn btn-primary btn-lg">
+            <a
+              href="/documents/Cover_Letter_Gal_Palas.docx"
+              class="btn btn-primary btn-lg"
+            >
               Cover Letter <i class="fas fa-arrow-circle-down"></i>
             </a>
           </div>

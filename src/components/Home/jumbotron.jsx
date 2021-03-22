@@ -13,7 +13,7 @@ function Jumbotron() {
             </p>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="/#">
+            <a href="/documents/Gal_Palas_CV.docx" download>
               <button
                 type="button"
                 className="btn btn-outline-secondary btn-lg"
