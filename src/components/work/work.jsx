@@ -15,7 +15,7 @@ function Work() {
         <hr></hr>
       </div>
       <div className="row padding">
-        <div class="col-md-4">
+        <div className="col-md-4">
           <Card
             path="/images/pizza-background.jpg"
             title="Pizza restaurant"
@@ -23,7 +23,7 @@ function Work() {
             link="/#"
           />
         </div>
-        <div class="col-md-4">
+        <div className="col-md-4">
           <Card
             path="/images/travel-background.jpg"
             title="TRVL"
@@ -31,7 +31,7 @@ function Work() {
             link="/#"
           />
         </div>
-        <div class="col-md-4">
+        <div className="col-md-4">
           <Card
             path="/images/portfolio-version1-background.jpg"
             title="My Portfolio"
@@ -41,7 +41,7 @@ function Work() {
         </div>
       </div>
       <div className="row padding">
-        <div class="col-md-4">
+        <div className="col-md-4">
           <Card
             path="/images/vidly-background.jpg"
             title="Vidly"
@@ -49,7 +49,7 @@ function Work() {
             link="/#"
           />
         </div>
-        <div class="col-md-4">
+        <div className="col-md-4">
           <Card
             path="/images/shopping-cart-background.png"
             title="Shopping Cart"

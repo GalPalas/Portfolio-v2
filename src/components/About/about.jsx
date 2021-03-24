@@ -27,9 +27,9 @@ function About() {
             <br></br>
             <a
               href="/documents/Cover_Letter_Gal_Palas.docx"
-              class="btn btn-primary btn-lg"
+              className="btn btn-primary btn-lg"
             >
-              Cover Letter <i class="fas fa-arrow-circle-down"></i>
+              Cover Letter <i className="fas fa-arrow-circle-down"></i>
             </a>
           </div>
           <div className="col-lg-6">

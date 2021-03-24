@@ -18,7 +18,7 @@ function Jumbotron() {
                 type="button"
                 className="btn btn-outline-secondary btn-lg"
               >
-                Resume <i class="fas fa-arrow-circle-down"></i>
+                Resume <i className="fas fa-arrow-circle-down"></i>
               </button>
             </a>
           </div>

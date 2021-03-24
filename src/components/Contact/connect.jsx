@@ -14,7 +14,7 @@ function Connect() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-facebook-square"></i>
+            <i className="fab fa-facebook-square"></i>
           </a>
           <a
             href="https://twitter.com/PalasGal"
@@ -42,7 +42,7 @@ function Connect() {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fab fa-linkedin-in"></i>
+            <i className="fab fa-linkedin-in"></i>
           </a>
         </div>
       </div>

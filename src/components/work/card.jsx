@@ -2,12 +2,12 @@ import React from "react";
 
 function Card({ path, title, description, link }) {
   return (
-    <div class="card">
-      <img src={path} class="card-image-top" alt=""></img>
-      <div class="card-body">
-        <h5 class="card-title">{title}</h5>
-        <p class="card-text">{description}</p>
-        <a href={link} class="btn btn-outline-secondary">
+    <div className="card">
+      <img src={path} className="card-image-top" alt=""></img>
+      <div className="card-body">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{description}</p>
+        <a href={link} className="btn btn-outline-secondary">
           See Project
         </a>
       </div>
