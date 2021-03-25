@@ -20,8 +20,8 @@ function Work() {
             path="/images/pizza-background.jpg"
             title="Pizza restaurant"
             description="This project demonstrates a site of a pizza restaurant, it was built in React used styled components."
-            link="/#"
-            linkGit="/#"
+            link="https://gal-pizza-planet.netlify.app/"
+            linkGit="https://github.com/GalPalas/pizza-website"
           />
         </div>
         <div className="col-md-4">
@@ -29,8 +29,8 @@ function Work() {
             path="/images/travel-background.jpg"
             title="TRVL"
             description="This project demonstrates a website of a travel equipment store based on travel recommendations, it was built in React."
-            link="/#"
-            linkGit="/#"
+            link="https://gal-travel.netlify.app/"
+            linkGit="https://github.com/GalPalas/travel-website"
           />
         </div>
         <div className="col-md-4">
@@ -38,8 +38,8 @@ function Work() {
             path="/images/portfolio-version1-background.jpg"
             title="My Portfolio"
             description="This project demonstrates my portfolio in its first version, it was built from scratch to showcase my design abilities and experience."
-            link="/#"
-            linkGit="/#"
+            link="https://gal-palas-portfolio.netlify.app/"
+            linkGit="https://github.com/GalPalas/Portfolio"
           />
         </div>
       </div>
@@ -49,8 +49,8 @@ function Work() {
             path="/images/vidly-background.jpg"
             title="Vidly"
             description="This project demonstrates the frontend of Vidley, an imaginary video rental app, the project was built in React combining different libraries"
-            link="/#"
-            linkGit="/#"
+            link="https://gal-vidly.netlify.app/movies"
+            linkGit="https://github.com/GalPalas/Vidly-FrontEnd"
           />
         </div>
         <div className="col-md-4">
@@ -58,8 +58,8 @@ function Work() {
             path="/images/shopping-cart-background.png"
             title="Shopping Cart"
             description="This project demonstrates an e-commerce site dealing with fashion and cosmetics, the site is built in React in combination with Redux,mongoDB... ."
-            link="/#"
-            linkGit="/#"
+            link="https://galpalas-shopping-cart.netlify.app/"
+            linkGit="https://github.com/GalPalas/shopping-cart-website"
           />
         </div>
         <div className="col-md-4">
@@ -67,8 +67,8 @@ function Work() {
             path="/images/galpalas-netlify-app.png"
             title="Portfolio v2"
             description="My portfolio, built from scratch to showcase my design abilities and experience. Full compatibility with desktops, tablets and laptops."
-            link="/#"
-            linkGit="/#"
+            link="https://galpalas.netlify.app/"
+            linkGit="https://github.com/GalPalas/Portfolio-v2"
           />
         </div>
       </div>
