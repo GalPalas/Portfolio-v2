@@ -48,46 +48,48 @@
   color: #211f1f;
 }
 
-.quotes1,.quotes2{
-  font-family:Indie,Flower;
+.quotes1,
+.quotes2 {
+  font-family: Indie, Flower;
 }
 
-.quotes1,.quotes2{
-  font-size:80%;
+.quotes1,
+.quotes2 {
+  font-size: 80%;
 }
 
 @media (max-width: 1200px) {
-  .quotes1{
-    top:40%;
+  .quotes1 {
+    top: 40%;
   }
-  .quotes1,.quotes2{
-    font-size:80%;
+  .quotes1,
+  .quotes2 {
+    font-size: 80%;
   }
-
 }
 
 @media (max-width: 992px) {
-
   .carousel-caption {
     top: 45%;
   }
-  .quotes1,.quotes2{
-    font-size:60%;
+  .quotes1,
+  .quotes2 {
+    font-size: 60%;
   }
 
-  .quotes1{
-    top:35%;
+  .quotes1 {
+    top: 35%;
   }
 }
 
-
 @media (max-width: 768px) {
   .carousel-caption {
-    top: 40%;
+    top: 45%;
   }
 
-  .quotes1,.quotes2{
-    font-size:60%;
+  .quotes1,
+  .quotes2 {
+    font-size: 65%;
   }
 
   .carousel-caption h1 {
@@ -110,7 +112,7 @@
 
 @media (max-width: 576px) {
   .carousel-caption {
-    top: 40%;
+    top: 35%;
   }
 
   .carousel-caption h1 {

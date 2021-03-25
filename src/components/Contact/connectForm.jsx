@@ -102,10 +102,15 @@ function ConnectForm() {
                         </div>
                       </p>
                     </div>
+                    <div className="col-12">
+                      <button
+                        type="submit"
+                        className="btn btn-secondary btn-lg"
+                      >
+                        Send me an email <i className="fa fa-envelope"></i>
+                      </button>
+                    </div>
                   </div>
-                  <button type="submit" className="btn btn-secondary btn-lg">
-                    Send me something interesting!
-                  </button>
                 </form>
               </div>
             </div>

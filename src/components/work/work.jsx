@@ -21,6 +21,7 @@ function Work() {
             title="Pizza restaurant"
             description="This project demonstrates a site of a pizza restaurant, it was built in React used styled components."
             link="/#"
+            linkGit="/#"
           />
         </div>
         <div className="col-md-4">
@@ -29,6 +30,7 @@ function Work() {
             title="TRVL"
             description="This project demonstrates a website of a travel equipment store based on travel recommendations, it was built in React."
             link="/#"
+            linkGit="/#"
           />
         </div>
         <div className="col-md-4">
@@ -37,6 +39,7 @@ function Work() {
             title="My Portfolio"
             description="This project demonstrates my portfolio in its first version, it was built from scratch to showcase my design abilities and experience."
             link="/#"
+            linkGit="/#"
           />
         </div>
       </div>
@@ -47,14 +50,25 @@ function Work() {
             title="Vidly"
             description="This project demonstrates the frontend of Vidley, an imaginary video rental app, the project was built in React combining different libraries"
             link="/#"
+            linkGit="/#"
           />
         </div>
         <div className="col-md-4">
           <Card
             path="/images/shopping-cart-background.png"
             title="Shopping Cart"
-            description="This project demonstrates an e-commerce site dealing with fashion and cosmetics, the site is built in React in combination with Redux."
+            description="This project demonstrates an e-commerce site dealing with fashion and cosmetics, the site is built in React in combination with Redux,mongoDB... ."
             link="/#"
+            linkGit="/#"
+          />
+        </div>
+        <div className="col-md-4">
+          <Card
+            path="/images/galpalas-netlify-app.png"
+            title="Portfolio v2"
+            description="My portfolio, built from scratch to showcase my design abilities and experience. Full compatibility with desktops, tablets and laptops."
+            link="/#"
+            linkGit="/#"
           />
         </div>
       </div>
