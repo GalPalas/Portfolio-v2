@@ -12,8 +12,9 @@ function WelcomeSection() {
           </Fade>
         </div>
         <hr></hr>
-        <Bounce right cascade>
-          <div className="col-12">
+
+        <div className="col-12">
+          <Bounce right cascade>
             <p className="lead">
               I can describe myself as autodidact, Responsible, creative with
               excellent interpersonal skills. High self-learning ability,
@@ -21,8 +22,8 @@ function WelcomeSection() {
               attitude. Have a very high work ethic and loves to delve and
               explore.
             </p>
-          </div>
-        </Bounce>
+          </Bounce>
+        </div>
       </div>
     </div>
   );
