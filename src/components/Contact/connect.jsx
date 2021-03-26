@@ -1,4 +1,6 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
+
 import "./connect.css";
 
 function Connect() {
@@ -6,8 +8,11 @@ function Connect() {
     <div className="container-fluid padding">
       <div className="row text-center padding">
         <div className="col-12">
-          <h2>Connect</h2>
+          <Fade top>
+            <h2>Connect</h2>
+          </Fade>
         </div>
+
         <div className="col-12 social padding">
           <a
             href="https://www.facebook.com/profile.php?id=100000538719566"
@@ -16,6 +21,7 @@ function Connect() {
           >
             <i className="fab fa-facebook-square"></i>
           </a>
+
           <a
             href="https://twitter.com/PalasGal"
             target="_blank"

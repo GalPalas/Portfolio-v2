@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import "./carousel.css";
 
 function Carousel() {
@@ -13,30 +14,32 @@ function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="/images/carousel_image_zero.jpg" alt=""></img>
-            <div className="carousel-caption">
-              <h1 className="display-2">Gal Palas</h1>
-              <h3>Full-Stack Developer</h3>
-              <a
-                type="button"
-                target="_blank"
-                rel="noreferrer"
-                className="btn btn-outline-light btn-lg"
-                href="https://github.com/GalPalas"
-              >
-                <i className="fab fa-github"></i>
-                GitHub
-              </a>
-              <a
-                type="button"
-                className="btn btn-outline-light btn-lg"
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.linkedin.com/in/gal-palas-84259419a/"
-              >
-                <i className="fab fa-linkedin"></i>
-                LinkedIn
-              </a>
-            </div>
+            <Fade top cascade>
+              <div className="carousel-caption">
+                <h1 className="display-2">Gal Palas</h1>
+                <h3>Full-Stack Developer</h3>
+                <a
+                  type="button"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-outline-light btn-lg"
+                  href="https://github.com/GalPalas"
+                >
+                  <i className="fab fa-github"></i>
+                  GitHub
+                </a>
+                <a
+                  type="button"
+                  className="btn btn-outline-light btn-lg"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/gal-palas-84259419a/"
+                >
+                  <i className="fab fa-linkedin"></i>
+                  LinkedIn
+                </a>
+              </div>
+            </Fade>
           </div>
           <div className="carousel-item ">
             <img src="/images/carousel_image_one.jpg" alt=""></img>

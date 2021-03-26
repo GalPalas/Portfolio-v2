@@ -1,4 +1,5 @@
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 import "./jumbotron.css";
 
 function Jumbotron() {
@@ -7,10 +8,12 @@ function Jumbotron() {
       <div className="container-fluid">
         <div className="row jumbotron">
           <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p className="lead">
-              Hello my name is Gal and I am a web developer. Here you can see my
-              resume. <strong>Click</strong> the download button
-            </p>
+            <Bounce left>
+              <p className="lead">
+                Hello my name is Gal and I am a web developer. Here you can see
+                my resume. <strong>Click</strong> the download button
+              </p>
+            </Bounce>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
             <a href="/documents/Gal_Palas_CV.docx" download>
