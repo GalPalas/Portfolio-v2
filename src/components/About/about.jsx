@@ -34,6 +34,7 @@ function About() {
               <a
                 href="/documents/Cover_Letter_Gal_Palas.docx"
                 className="btn btn-primary btn-lg"
+                download
               >
                 Cover Letter <i className="fas fa-arrow-circle-down"></i>
               </a>
